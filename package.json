@@ -1,8 +1,8 @@
 {
-  "name": "react-native-get-random-values",
+  "name": "@pasteltech/react-native-get-random-values",
   "version": "1.11.0",
   "license": "MIT",
-  "repository": "LinusU/react-native-get-random-values",
+  "repository": "pastelhk/react-native-get-random-values",
   "dependencies": {
     "fast-base64-decode": "^1.0.0"
   },
