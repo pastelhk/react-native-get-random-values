@@ -7,7 +7,13 @@
     "fast-base64-decode": "^1.0.0"
   },
   "peerDependencies": {
-    "react-native": ">=0.56"
+    "react-native": ">=0.70",
+    "react-native-windows": ">=0.70"
+  },
+  "peerDependenciesMeta": {
+    "react-native-windows": {
+      "optional": true
+    }
   },
   "keywords": [
     "Crypto.getRandomValues",
@@ -16,5 +22,11 @@
     "getRandomValues",
     "polyfill",
     "react-native"
-  ]
+  ],
+  "scripts": {
+    "windows": "react-native run-windows"
+  },
+  "devDependencies": {
+    "metro-config": "^0.80.9"
+  }
 }
